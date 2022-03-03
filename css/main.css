@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient( #96adc4, #c1cad6);
+
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+th, td{
+    padding: 14px 16px;
+    text-align:center;
+    border-radius: 10px;
+    background-color: #6c6ea0;
+    color: white;
+    width: 1000px;
+}
+
+th{
+    color: #66c7f4;
+}
+
+.bara {
+    overflow: hidden;
+    background-color: #6c6ea0;
+    border-radius: 10px;
+}
+
+.bara a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bara a:hover {
+    background-color: #66c7f4;
+    color: #ffffff;
+}
+
+.bara a.active {
+    background-color: #ff1053;
+    color: #ffffff;
+}
+
+.sort{
+    overflow: hidden;
+    background-color: #6c6ea0;
+    /*border-radius: 10px;*/
+}
+.sort a {
+    color: #66c7f4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.sort a:hover{
+    color: white;
+}
+
+.tools{
+    background-color: transparent;
+    padding: 0px;
+}
+
+.tools a{
+    background-color: #ff1053;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.tools a:hover{
+    color: black;
+}
+
+.formular{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.button{
+    background-color: #ff1053;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    border:none;
+}
+
+.button:hover{
+    color: black;
+}
+
+.message{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.command{
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
